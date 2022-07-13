@@ -30,49 +30,49 @@ class UI {
   mainWeather(mainWeather) {
     switch (mainWeather) {
       case "Thunderstorm":
-        return "رعد و برق";
+        return "Thunderstorm";
         break;
       case "Drizzle":
-        return "نمنم باران";
+        return "Drizzle";
         break;
       case "Rain":
-        return "بارانی";
+        return "Rain";
         break;
       case "Snow":
-        return "برفی";
+        return "Snow";
         break;
       case "Mist":
-        return "غبار";
+        return "Mist";
         break;
       case "Smoke":
-        return "دود";
+        return "Smoke";
         break;
       case "Haze":
-        return "غبار مه";
+        return "Haze";
         break;
       case "Dust":
-        return "گرد و خاک";
+        return "Dust";
         break;
       case "Fog":
-        return "مه";
+        return "Fog";
         break;
       case "Sand":
-        return "شن";
+        return "Sand";
         break;
       case "Ash":
-        return "خاکستر آتشفشانی";
+        return "Ash";
         break;
       case "Squall":
-        return "بوران";
+        return "Squall";
         break;
       case "Tornado":
-        return "توقان";
+        return "Tornado";
         break;
       case "Clear":
-        return "صاف";
+        return "Clear";
         break;
       case "Clouds":
-        return "ابری";
+        return "Clouds";
         break;
       default:
         return mainWeather;
